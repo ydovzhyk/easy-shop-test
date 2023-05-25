@@ -24,4 +24,16 @@ export const field = {
     name: 'filter',
     placeholder: 'Select filter value',
   },
+  price: {
+    name: 'price',
+    type: 'number',
+    placeholder: 'Ціна за одиницю*',
+    required: true,
+  },
+  category: {
+    name: 'category',
+    type: 'text',
+    placeholder: 'Категорія*',
+    required: true,
+  },
 };
